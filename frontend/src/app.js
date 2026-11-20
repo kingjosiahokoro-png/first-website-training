@@ -227,7 +227,7 @@ function renderSeatMatrix() {
     const renderSeatBtn = s => {
       const isSelected = state.selectedSeat === s.id;
       let btnClasses = 'w-10 h-11 rounded-xl flex flex-col items-center justify-center font-bold text-[11px] transition-all relative ';
-      
+
       if (!s.isAvailable) {
         btnClasses += 'bg-surface-lowest/40 text-white/20 border border-white/5 cursor-not-allowed';
       } else if (isSelected) {
