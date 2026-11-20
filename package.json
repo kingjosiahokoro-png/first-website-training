@@ -1,0 +1,14 @@
+{
+  "name": "royal-logistics",
+  "version": "1.0.0",
+  "description": "Royal Logistics Global Flight Booking & Private Aviation Platform",
+  "main": "backend/src/server.js",
+  "scripts": {
+    "start": "node backend/src/server.js",
+    "build": "cd backend && npm install",
+    "postinstall": "cd backend && npm install"
+  },
+  "engines": {
+    "node": ">=18.0.0"
+  }
+}
