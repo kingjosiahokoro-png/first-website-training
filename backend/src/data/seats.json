@@ -1,0 +1,19 @@
+[
+  { "id": "1A", "row": 1, "column": "A", "isWindow": true, "isAisle": true, "isOccupied": false, "passengerName": "A. Vance", "priceDelta": 0.0, "description": "Portside Window Sanctuary with dual panoramic dimmable windows, zero-gravity sleep mode, and direct aisle ingress." },
+  { "id": "1D", "row": 1, "column": "D", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0, "description": "Center Honeymoon Atelier with retractable walnut privacy partition and 82\" lie-flat bed." },
+  { "id": "1G", "row": 1, "column": "G", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0, "description": "Center Honeymoon Atelier with retractable walnut privacy partition and 82\" lie-flat bed." },
+  { "id": "1K", "row": 1, "column": "K", "isWindow": true, "isAisle": true, "isOccupied": true, "priceDelta": 0.0 },
+  { "id": "2A", "row": 2, "column": "A", "isWindow": true, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "2D", "row": 2, "column": "D", "isWindow": false, "isAisle": true, "isOccupied": true, "priceDelta": 0.0 },
+  { "id": "2G", "row": 2, "column": "G", "isWindow": false, "isAisle": true, "isOccupied": true, "priceDelta": 0.0 },
+  { "id": "2K", "row": 2, "column": "K", "isWindow": true, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "3A", "row": 3, "column": "A", "isWindow": true, "isAisle": true, "isOccupied": true, "priceDelta": 0.0 },
+  { "id": "3D", "row": 3, "column": "D", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "3G", "row": 3, "column": "G", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "3K", "row": 3, "column": "K", "isWindow": true, "isAisle": true, "isOccupied": true, "priceDelta": 0.0 },
+  { "id": "4A", "row": 4, "column": "A", "isWindow": true, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "4D", "row": 4, "column": "D", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "4G", "row": 4, "column": "G", "isWindow": false, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 },
+  { "id": "4K", "row": 4, "column": "K", "isWindow": true, "isAisle": true, "isOccupied": false, "priceDelta": 0.0 }
+]
+

@@ -1,0 +1,30 @@
+{
+  "name": "royal-logistics-frontend",
+  "version": "1.0.0",
+  "description": "Royal Logistics Luxury Global Flight Booking & Aviation Web Client",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "clsx": "^2.1.1",
+    "tailwind-merge": "^2.3.0"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.19",
+    "postcss": "^8.4.38",
+    "tailwindcss": "^3.4.3",
+    "vite": "^5.2.11"
+  },
+  "keywords": [
+    "aviation",
+    "luxury",
+    "flight-booking",
+    "royal-logistics",
+    "strata"
+  ],
+  "author": "Royal Logistics Aviation Group",
+  "license": "UNLICENSED"
+}

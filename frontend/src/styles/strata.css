@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;600;700;800&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&display=swap');
+
+:root {
+  /* Strata Color Architecture */
+  --surface: #131315;
+  --surface-dim: #131315;
+  --surface-bright: #39393b;
+  --surface-container-lowest: #0e0e10;
+  --surface-container-low: #1c1b1d;
+  --surface-container: #201f21;
+  --surface-container-high: #2a2a2c;
+  --surface-container-highest: #353437;
+  
+  --on-surface: #e5e1e4;
+  --on-surface-variant: #c1c6d6;
+  --text-muted: #86868b;
+  
+  --primary: #abc7ff;
+  --primary-container: #0071e3;
+  --on-primary: #002f66;
+  --on-primary-container: #fcfbff;
+  
+  --secondary: #e9c349;
+  --secondary-container: #af8d11;
+  --on-secondary: #3c2f00;
+  
+  --tertiary: #ffb693;
+  --border-subtle: rgba(255, 255, 255, 0.09);
+  --border-highlight: rgba(255, 255, 255, 0.16);
+  --glass-card: rgba(255, 255, 255, 0.05);
+  --glass-pill: rgba(255, 255, 255, 0.07);
+}
+
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+body {
+  background-color: var(--surface);
+  color: var(--on-surface);
+  font-family: 'Hanken Grotesk', -apple-system, BlinkMacSystemFont, sans-serif;
+  overflow-x: hidden;
+  user-select: none;
+}
+
+/* Glassmorphism Classes */
+.glass-panel {
+  background: var(--glass-card);
+  backdrop-filter: blur(24px);
+  -webkit-backdrop-filter: blur(24px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 20px;
+}
+
+.glass-pill {
+  background: var(--glass-pill);
+  backdrop-filter: blur(14px);
+  -webkit-backdrop-filter: blur(14px);
+  border: 1px solid var(--border-subtle);
+  border-radius: 9999px;
+}
+
+/* Pulsing Status Beacon */
+@keyframes beacon-ping {
+  0% { transform: scale(1); opacity: 0.8; }
+  80%, 100% { transform: scale(2.4); opacity: 0; }
+}
+
+.beacon-pulse {
+  animation: beacon-ping 2s cubic-bezier(0, 0, 0.2, 1) infinite;
+}
+
+/* Emil tactile button */
+.royal-btn {
+  background-color: var(--primary-container);
+  color: #fff;
+  transition: transform 0.15s cubic-bezier(0.2, 0.8, 0.2, 1), background-color 0.2s;
+  box-shadow: 0 4px 18px rgba(0, 113, 227, 0.28);
+}
+
+.royal-btn:active {
+  transform: scale(0.982);
+}
+
+/* Hide scrollbars */
+.no-scrollbar::-webkit-scrollbar {
+  display: none;
+}
+.no-scrollbar {
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+}

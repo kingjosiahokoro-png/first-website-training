@@ -1,0 +1,78 @@
+[
+  {
+    "flightNumber": "AE-01",
+    "title": "Aero Flagship Nonstop",
+    "aircraft": "Airbus A350-1000 Suite • Tail #N901AE",
+    "originCode": "SFO",
+    "originName": "San Francisco International",
+    "originTerminalGate": "Terminal I • Gate G98",
+    "destCode": "HND",
+    "destName": "Tokyo Haneda",
+    "destTerminalGate": "Terminal 3 • Private Salon",
+    "departureTime": "11:20 AM",
+    "arrivalTime": "03:35 PM",
+    "nextDay": "+1",
+    "duration": "11h 15m",
+    "isDirect": true,
+    "price": 6250.0,
+    "tag": "Signature",
+    "isSignature": true,
+    "cabinClass": "First Suite • All-Inclusive",
+    "amenities": [
+      { "title": "Starlink 250Mbps", "iconName": "wifi" },
+      { "title": "Chef Omakase", "iconName": "restaurant" },
+      { "title": "Private Shower", "iconName": "shower" }
+    ]
+  },
+  {
+    "flightNumber": "AE-09",
+    "title": "Tokyo Twilight Nonstop",
+    "aircraft": "Boeing 787-9 Dreamliner SkySuite",
+    "originCode": "SFO",
+    "originName": "San Francisco International",
+    "originTerminalGate": "Terminal I • Gate G102",
+    "destCode": "HND",
+    "destName": "Tokyo Haneda",
+    "destTerminalGate": "Terminal 3 • Fast Track",
+    "departureTime": "05:45 PM",
+    "arrivalTime": "09:55 PM",
+    "nextDay": "+1",
+    "duration": "11h 10m",
+    "isDirect": true,
+    "price": 5850.0,
+    "tag": "Overnight Sleeper",
+    "isSignature": false,
+    "cabinClass": "First Suite",
+    "amenities": [
+      { "title": "Lie-flat 82\"", "iconName": "bed" },
+      { "title": "Sommelier Cellar", "iconName": "wine_bar" },
+      { "title": "Bespoke Audio", "iconName": "headphones" }
+    ]
+  },
+  {
+    "flightNumber": "AE-15",
+    "title": "Aero Dawn Express",
+    "aircraft": "Airbus A350-1000 Flagship",
+    "originCode": "SFO",
+    "originName": "San Francisco International",
+    "originTerminalGate": "Terminal I • Gate G92",
+    "destCode": "HND",
+    "destName": "Tokyo Haneda",
+    "destTerminalGate": "Terminal 3 • Private Salon",
+    "departureTime": "08:15 AM",
+    "arrivalTime": "12:30 PM",
+    "nextDay": "+1",
+    "duration": "11h 15m",
+    "isDirect": true,
+    "price": 6400.0,
+    "tag": "Morning Express",
+    "isSignature": false,
+    "cabinClass": "First Suite • All-Inclusive",
+    "amenities": [
+      { "title": "Starlink 250Mbps", "iconName": "wifi" },
+      { "title": "Gourmet Breakfast", "iconName": "restaurant" },
+      { "title": "Chauffeur Service", "iconName": "directions_car" }
+    ]
+  }
+]
+
