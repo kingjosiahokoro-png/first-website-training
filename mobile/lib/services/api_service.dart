@@ -5,7 +5,8 @@ import '../models/seat.dart';
 import '../models/boarding_pass.dart';
 
 class ApiService {
-  static const String _defaultBaseUrl = 'http://localhost:3000/api';
+  static const String _defaultBaseUrl = 'https://web-production-d45cccc5.up.railway.app/api';
+  static const String _fallbackLocalUrl = 'http://localhost:3000/api';
 
   final String baseUrl;
 
