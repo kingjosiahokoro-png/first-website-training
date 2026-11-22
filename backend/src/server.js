@@ -284,6 +284,31 @@ app.post('/api/media/upload-text', async (req, res) => {
   }
 });
 
+// -------------------------------------------------------------
+// 6. Unified Frontend & Mobile Web Serving
+// -------------------------------------------------------------
+const frontendDir = path.join(__dirname, '../../frontend');
+const mobileWebDir = path.join(__dirname, '../../mobile/build/web');
+
+// Serve mobile Flutter web app at /mobile
+if (fs.existsSync(mobileWebDir)) {
+  app.use('/mobile', express.static(mobileWebDir));
+  app.get('/mobile/*', (req, res) => {
+    res.sendFile(path.join(mobileWebDir, 'index.html'));
+  });
+}
+
+// Serve main frontend website at root /
+if (fs.existsSync(frontendDir)) {
+  app.use(express.static(frontendDir));
+  app.get('*', (req, res, next) => {
+    if (req.path.startsWith('/api') || req.path.startsWith('/mobile')) {
+      return next();
+    }
+    res.sendFile(path.join(frontendDir, 'index.html'));
+  });
+}
+
 app.listen(PORT, () => {
   console.log(`✨ Royal Logistics API Server running on port ${PORT}`);
   console.log(`🌐 MongoDB: database "${process.env.DB_NAME || 'first-mobile-app'}"`);
